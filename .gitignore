@@ -1,41 +1,52 @@
-# Dependency Directories
-node_modules
-.pnpm-store
-
-# Build and Distribution Artifacts
-dist
-build
-coverage
-
-# React Native / Expo Specific
-.expo/
-android/build
-android/app/build
-iOS/build
-
-# IDE and Editor Files
-.vscode/
+# Ignore general IDE/editor files
 .idea/
-*.swp
-*.swo
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.DS_Store
 
-# Logs and Temp Files
+# Ignore node_modules and build artifacts
+node_modules/
+dist/
+build/
+.next/
+android/build/
+ios/build/
+
+# Ignore log files and temporary files
 *.log
 *.tmp
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# macOS
+*
+# Ignore OS-specific files
 .DS_Store
+Thumbs.db
 
-# TypeScript / JavaScript Compilation
-*.js.map
-*.ts.map
-
-# Storybook Output
-storybook-static/
-
-# Security and Secret Files (Always ignore sensitive configs)
+# Ignore environment variables
 .env
-*.pem
+.env.*
+!
+# Ignore test files and coverage reports
+coverage/
+*.test.js.snap
+*.spec.js.snap
+*.test.ts.snap
+*.spec.ts.snap
+
+# Ignore Expo specific files
+.expo/
+
+# Ignore mobile app specific build directories
+android/app/src/main/assets/
+android/app/src/main/java/
+android/app/src/main/res/
+ios/build/
+ios/Pods/
+
+# Ignore Git specific files
+.git/
+.gitignore
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
