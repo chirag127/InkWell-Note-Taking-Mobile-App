@@ -1,30 +1,19 @@
-# Bug Report
+---
+name: Bug Report
+about: "Report a bug or issue in the InkWell Note-Taking Mobile App."
+title: "BUG: "
+labels: "bug"
+assignees: "chirag127"
 
-**Please provide a clear and concise description of the bug.**
+body:
+  - type: markdown
+    attributes:
+      value: |-
+        ## InkWell Note-Taking Mobile App - Bug Report
 
-## Expected Behavior
+        Thank you for helping improve the InkWell app! Please provide as much detail as possible to help us reproduce and fix the issue.
 
-*What did you expect to happen?*
+        **Project URL:** `https://github.com/chirag127/InkWell-Note-Taking-Mobile-App`
+        **Current Date:** December 2025
 
-## Current Behavior
-
-*What actually happened?*
-
-## Steps to Reproduce
-
-1.  Go to '...'
-2.  Click on '....'
-3.  Scroll down on '....'
-4.  See error
-
-## Environment
-
-*   **App Version:** (e.g., 1.0.0)
-*   **Device:** (e.g., iPhone 15 Pro, Samsung Galaxy S23)
-*   **Operating System:** (e.g., iOS 17.3, Android 14)
-*   **React Native Version:** (e.g., 0.73.4)
-*   **Expo Version:** (e.g., 49.0.16)
-
-## Additional Context
-
-*Add any other context about the problem here. Screenshots or screen recordings are highly recommended.*
+        ---
